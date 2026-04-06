@@ -1,4 +1,4 @@
-print("FILE IS RUNNING")
+# print("FILE IS RUNNING")
 
 def grade(pred, truth):
     reward = 0
@@ -13,8 +13,10 @@ def grade(pred, truth):
 
     return reward
 
-if __name__ == "__main__":
-    pred = {"is_attack": True, "type": "prompt_injection"}
-    truth = {"is_attack": True, "type": "prompt_injection"}
+# ---- Testing the above code ----
 
-    print(grade(pred, truth))
+# if __name__ == "__main__":
+#     pred = {"is_attack": True, "type": "prompt_injection"}
+#     truth = {"is_attack": True, "type": "prompt_injection"}
+
+#     print(grade(pred, truth))

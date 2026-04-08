@@ -13,10 +13,16 @@ def grade(pred, truth):
 
     return reward
 
-# ---- Testing the above code ----
+#             ---- Testing the above code ----
 
 # if __name__ == "__main__":
 #     pred = {"is_attack": True, "type": "prompt_injection"}
 #     truth = {"is_attack": True, "type": "prompt_injection"}
 
 #     print(grade(pred, truth))
+
+
+
+#   ---- To run the test code ----
+
+# python env/grader.py

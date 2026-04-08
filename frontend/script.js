@@ -1,5 +1,8 @@
+console.log("Script loaded");
 async function analyze() {
+    console.log("Analyzing...");
     const input = document.getElementById("userInput").value;
+
 
     try {
         const response = await fetch("http://127.0.0.1:5000/analyze", {
